@@ -1,0 +1,86 @@
+{
+  "chapter": "Chapter 1 - Introduction",
+  "title": "Introduction to Machine Learning",
+  "summary": {
+    "definition": "Machine Learning adalah metode untuk mengekstrak pengetahuan dari data dan membuat prediksi tanpa aturan eksplisit yang ditulis secara manual.",
+    "importance": "Machine Learning digunakan dalam berbagai aplikasi modern seperti rekomendasi produk, pengenalan wajah, diagnosis medis, dan analisis data ilmiah.",
+    "types_of_learning": {
+      "supervised_learning": {
+        "description": "Model belajar dari data yang memiliki label (input-output).",
+        "examples": [
+          "Klasifikasi email spam",
+          "Prediksi harga rumah",
+          "Klasifikasi gambar"
+        ]
+      },
+      "unsupervised_learning": {
+        "description": "Model belajar dari data tanpa label untuk menemukan pola tersembunyi.",
+        "examples": [
+          "Clustering pelanggan",
+          "Deteksi anomali",
+          "Topic modeling"
+        ]
+      }
+    },
+    "key_concepts": {
+      "data_representation": {
+        "sample": "Satu baris data (data point)",
+        "feature": "Karakteristik atau atribut dari data"
+      },
+      "goal": "Membuat model yang mampu melakukan generalisasi terhadap data baru"
+    },
+    "workflow": [
+      "Memahami masalah",
+      "Mengumpulkan data",
+      "Memilih model",
+      "Melatih model",
+      "Evaluasi model",
+      "Prediksi data baru"
+    ],
+    "tools": {
+      "python": "Bahasa utama untuk Machine Learning",
+      "libraries": [
+        "NumPy",
+        "pandas",
+        "matplotlib",
+        "scikit-learn"
+      ],
+      "environment": "Jupyter Notebook untuk eksplorasi interaktif"
+    },
+    "example_case": {
+      "dataset": "Iris Dataset",
+      "task": "Klasifikasi jenis bunga iris",
+      "features": [
+        "sepal length",
+        "sepal width",
+        "petal length",
+        "petal width"
+      ],
+      "labels": [
+        "setosa",
+        "versicolor",
+        "virginica"
+      ],
+      "model": "K-Nearest Neighbors (KNN)",
+      "process": [
+        "Split data menjadi training dan testing",
+        "Latih model menggunakan data training",
+        "Prediksi menggunakan data testing",
+        "Evaluasi akurasi model"
+      ],
+      "result": "Model mencapai akurasi sekitar 97%"
+    },
+    "evaluation": {
+      "method": "Train-Test Split",
+      "metric": "Accuracy",
+      "purpose": "Mengukur kemampuan model dalam memprediksi data baru"
+    },
+    "important_notes": [
+      "Tidak boleh mengevaluasi model menggunakan data training",
+      "Data harus dibagi menjadi training dan testing",
+      "Visualisasi data penting untuk memahami pola",
+      "Pemilihan fitur sangat mempengaruhi performa model"
+    ],
+    "conclusion": "Chapter ini memperkenalkan dasar Machine Learning, jenis pembelajaran, workflow, serta implementasi pertama menggunakan dataset Iris dan algoritma KNN."
+  }
+}
